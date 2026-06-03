@@ -1,0 +1,674 @@
+好的，我明白了。你希望我直接提供所有的程式碼文本，而不是打包成檔案。
+
+由於程式碼內容非常多，我會將其分為幾個部分，每個部分提供一個檔案的完整程式碼。請你逐一複製並儲存到對應的檔案中。
+
+重要提示：
+*   請確保你使用純文字編輯器 (例如 Windows 的記事本 Notepad, macOS 的 TextEdit, 或專業程式碼編輯器如 VS Code)。
+*   儲存時請務必使用正確的檔名和副檔名 (例如 index.html, style.css)。
+*   所有這些檔案應該放在同一個資料夾中。
+
+---
+
+1. index.html (首頁)
+
+html <!DOCTYPE html> <html lang="zh-Hant"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>鮮一食品有限公司 Fresh One Food Supplies Limited</title>     <link rel="stylesheet" href="style.css">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head> <body>     <header>         <div class="container">             <div class="logo">                 <h1>鮮一食品有限公司</h1>                 <h2>Fresh One Food Supplies Limited</h2>             </div>             <nav>                 <ul>                     <li><a href="index.html">首頁</a></li>                     <li><a href="about.html">關於我們</a></li>                     <li><a href="products.html">產品目錄</a></li>                     <li><a href="order.html">訂購</a></li>                     <li><a href="contact.html">聯絡我們</a></li>                 </ul>             </nav>         </div>     </header>      <main>         <section id="hero" class="hero-section">             <div class="hero-content">                 <h1>優質食材，新鮮直送</h1>                 <p>致力於為客戶提供最新鮮、最優質的食品，成為您值得信賴的食品供應夥伴。</p>                 <a href="products.html" class="btn">瀏覽產品目錄</a>                 <a href="order.html" class="btn btn-secondary">立即訂購</a>             </div>         </section>          <section id="features" class="features-section container">             <h2>我們的優勢</h2>             <div class="feature-grid">                 <div class="feature-item">                     <i class="fas fa-leaf"></i>                     <h3>新鮮保證</h3>                     <p>嚴選全球優質食材，確保產品新鮮度和品質。</p>                 </div>                 <div class="feature-item">                     <i class="fas fa-box-open"></i>                     <h3>多樣選擇</h3>                     <p>從海鮮肉類到日式食材，滿足您一站式採購需求。</p>                 </div>                 <div class="feature-item">                     <i class="fas fa-truck-fast"></i>                     <h3>快速配送</h3>                     <p>每日接受訂單至早上9點，當日新鮮送達。</p>                 </div>                 <div class="feature-item">                     <i class="fas fa-handshake"></i>                     <h3>專業服務</h3>                     <p>經驗豐富的團隊，提供貼心專業的客戶服務。</p>                 </div>             </div>         </section>          <section id="products-preview" class="products-preview-section">             <div class="container">                 <h2>精選產品</h2>                 <p>瀏覽我們多樣化的產品，發現更多選擇。</p>                 <div class="product-preview-grid">                     <!-- 這裡可以手動添加一些熱門產品的預覽，或用JS動態加載 -->                     <div class="product-card">                         <img src="https://via.placeholder.com/300x200?text=Fresh+Seafood" alt="新鮮海鮮">                         <h3>新鮮海膽</h3>                         <p>加拿大、澳洲、墨西哥等優質海膽。</p>                         <a href="products.html#fresh-goods" class="btn-small">了解更多</a>                     </div>                     <div class="product-card">                         <img src="https://via.placeholder.com/300x200?text=Premium+Meat" alt="優質肉類">                         <h3>鹿兒島和牛</h3>                         <p>A5/A4級肉眼，極致美味。</p>                         <a href="products.html#meat" class="btn-small">了解更多</a>                     </div>                     <div class="product-card">                         <img src="https://via.placeholder.com/300x200?text=Japanese+Ingredients" alt="日式食材">                         <h3>日本壽司材料</h3>                         <p>多種壽司食材，助您製作美味壽司。</p>                         <a href="products.html#sushi-ingredients" class="btn-small">了解更多</a>                     </div>                 </div>                 <a href="products.html" class="btn-large">查看所有產品</a>             </div>         </section>     </main>      <footer>         <div class="container">             <div class="footer-info">                 <p>&copy; 2024 鮮一食品有限公司 Fresh One Food Supplies Limited. All rights reserved.</p>                 <p>地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 <p>電話: (852) 2889 2880 | 傳真: 2889 2180 | 電郵: freshone_food@outlook.com</p>                 <p>落單時間: 每天接受落單至早上9:00，當日送貨；星期日休息</p>                 <p class="validity">有效期: MAY'26</p>             </div>             <div class="social-links">                 <a href="https://wa.me/85260719598?text=你好，我想查詢產品和下訂單：" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </div>     </footer>      <script src="script.js"></script> </body> </html> 
+
+---
+
+2. about.html (關於我們)
+
+html <!DOCTYPE html> <html lang="zh-Hant"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>關於我們 - 鮮一食品有限公司 Fresh One Food Supplies Limited</title>     <link rel="stylesheet" href="style.css">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head> <body>     <header>         <div class="container">             <div class="logo">                 <h1>鮮一食品有限公司</h1>                 <h2>Fresh One Food Supplies Limited</h2>             </div>             <nav>                 <ul>                     <li><a href="index.html">首頁</a></li>                     <li><a href="about.html">關於我們</a></li>                     <li><a href="products.html">產品目錄</a></li>                     <li><a href="order.html">訂購</a></li>                     <li><a href="contact.html">聯絡我們</a></li>                 </ul>             </nav>         </div>     </header>      <main>         <section id="about-us" class="about-us-section container">             <h2>關於我們</h2>             <div class="about-content">                 <img src="https://via.placeholder.com/600x400?text=Fresh+One+Food+Supplies+Limited" alt="公司外觀" class="about-image">                 <div class="about-text">                     <h3>我們的故事與願景</h3>                     <p>鮮一食品有限公司 Fresh One Food Supplies Limited 紮根於香港，多年來致力於為餐飲業界及廣大客戶提供最優質、最新鮮的環球食材。我們深信，優質的食材是烹調美味佳餚的基石，因此我們嚴格把控從採購到配送的每一個環節，確保每份食材都能以最佳狀態送達客戶手中。</p>                     <p>我們的願景是成為香港最受信賴的食品供應商，不僅提供豐富多樣的產品選擇，更以專業、高效的服務贏得客戶的長期支持。無論是高級餐廳、酒店、還是零售客戶，我們都能提供量身定制的供應方案。</p>                      <h3>我們的優勢</h3>                     <ul>                         <li><strong>全球採購網路：</strong> 我們與世界各地的優質農場、漁場及供應商建立長期合作關係，確保貨源穩定且新鮮。</li>                         <li><strong>嚴格品質監控：</strong> 從源頭到餐桌，我們實施嚴格的品質管理體系，符合國際食品安全標準。</li>                         <li><strong>多元化產品組合：</strong> 涵蓋新鮮海產、優質肉類、精選家禽、日式食材、有機蔬菜及各類調味品等，滿足客戶一站式採購需求。</li>                         <li><strong>專業配送服務：</strong> 配備專業冷鏈運輸車隊，確保食材在配送過程中保持最佳溫度和新鮮度，準時送達。</li>                         <li><strong>客戶至上：</strong> 我們擁有經驗豐富的客戶服務團隊，樂意解答客戶疑問，提供專業建議，並靈活應對各種需求。</li>                     </ul>                      <h3>聯絡資訊</h3>                     <p><strong>鮮一食品有限公司 Fresh One Food Supplies Limited</strong></p>                     <p><i class="fas fa-map-marker-alt"></i> 地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                     <p><i class="fas fa-phone-alt"></i> 電話: (852) 2889 2880</p>                     <p><i class="fas fa-fax"></i> 傳真: 2889 2180</p>                     <p><i class="fas fa-envelope"></i> 電郵: freshone_food@outlook.com</p>                 </div>             </div>         </section>     </main>      <footer>         <div class="container">             <div class="footer-info">                 <p>&copy; 2024 鮮一食品有限公司 Fresh One Food Supplies Limited. All rights reserved.</p>                 <p>地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 <p>電話: (852) 2889 2880 | 傳真: 2889 2180 | 電郵: freshone_food@outlook.com</p>                 <p>落單時間: 每天接受落單至早上9:00，當日送貨；星期日休息</p>                 <p class="validity">有效期: MAY'26</p>             </div>             <div class="social-links">                 <a href="https://wa.me/85260719598?text=你好，我想查詢產品和下訂單：" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </div>     </footer>      <script src="script.js"></script> </body> </html> 
+
+---
+
+3. contact.html (聯絡我們)
+
+html <!DOCTYPE html> <html lang="zh-Hant"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>聯絡我們 - 鮮一食品有限公司 Fresh One Food Supplies Limited</title>     <link rel="stylesheet" href="style.css">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head> <body>     <header>         <div class="container">             <div class="logo">                 <h1>鮮一食品有限公司</h1>                 <h2>Fresh One Food Supplies Limited</h2>             </div>             <nav>                 <ul>                     <li><a href="index.html">首頁</a></li>                     <li><a href="about.html">關於我們</a></li>                     <li><a href="products.html">產品目錄</a></li>                     <li><a href="order.html">訂購</a></li>                     <li><a href="contact.html">聯絡我們</a></li>                 </ul>             </nav>         </div>     </header>      <main>         <section id="contact-us" class="contact-us-section container">             <h2>聯絡我們</h2>             <div class="contact-info-grid">                 <div class="contact-item">                     <i class="fas fa-map-marker-alt"></i>                     <h3>地址</h3>                     <p>香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 </div>                 <div class="contact-item">                     <i class="fas fa-phone-alt"></i>                     <h3>電話</h3>                     <p>(852) 2889 2880</p>                     <p>銷售: Yan 6071 9598</p>                 </div>                 <div class="contact-item">                     <i class="fas fa-fax"></i>                     <h3>傳真</h3>                     <p>2889 2180</p>                 </div>                 <div class="contact-item">                     <i class="fas fa-envelope"></i>                     <h3>電郵</h3>                     <p>freshone_food@outlook.com</p>                 </div>             </div>              <div class="contact-form-container">                 <h3>發送訊息給我們</h3>                 <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST">                     <!-- 請將 action 屬性中的 "your_form_id" 替換為你的 Formspree 表單 ID -->                     <div class="form-group">                         <label for="name">姓名:</label>                         <input type="text" id="name" name="name" required>                     </div>                     <div class="form-group">                         <label for="email">電郵:</label>                         <input type="email" id="email" name="email" required>                     </div>                     <div class="form-group">                         <label for="subject">主旨:</label>                         <input type="text" id="subject" name="subject" required>                     </div>                     <div class="form-group">                         <label for="message">訊息:</label>                         <textarea id="message" name="message" rows="5" required></textarea>                     </div>                     <button type="submit" class="btn">發送訊息</button>                     <p id="formStatus"></p>                 </form>             </div>         </section>     </main>      <footer>         <div class="container">             <div class="footer-info">                 <p>&copy; 2024 鮮一食品有限公司 Fresh One Food Supplies Limited. All rights reserved.</p>                 <p>地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 <p>電話: (852) 2889 2880 | 傳真: 2889 2180 | 電郵: freshone_food@outlook.com</p>                 <p>落單時間: 每天接受落單至早上9:00，當日送貨；星期日休息</p>                 <p class="validity">有效期: MAY'26</p>             </div>             <div class="social-links">                 <a href="https://wa.me/85260719598?text=你好，我想查詢產品和下訂單：" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </div>     </footer>      <script src="script.js"></script> </body> </html> 
+
+---
+
+4. products.html (產品目錄)
+
+html <!DOCTYPE html> <html lang="zh-Hant"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>產品目錄 - 鮮一食品有限公司 Fresh One Food Supplies Limited</title>     <link rel="stylesheet" href="style.css">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head> <body>     <header>         <div class="container">             <div class="logo">                 <h1>鮮一食品有限公司</h1>                 <h2>Fresh One Food Supplies Limited</h2>             </div>             <nav>                 <ul>                     <li><a href="index.html">首頁</a></li>                     <li><a href="about.html">關於我們</a></li>                     <li><a href="products.html">產品目錄</a></li>                     <li><a href="order.html">訂購</a></li>                     <li><a href="contact.html">聯絡我們</a></li>                 </ul>             </nav>         </div>     </header>      <main>         <section id="product-catalogue" class="product-catalogue-section container">             <h2>產品目錄</h2>             <p class="catalogue-info">以下是我們的產品清單，請注意部分產品價格可能為「時價」、「暫缺」或「需預訂」。</p>              <div class="product-categories">                 <button class="category-btn active" data-category="all">全部產品</button>                 <button class="category-btn" data-category="fresh-goods">鮮貨類</button>                 <button class="category-btn" data-category="meat">肉類</button>                 <button class="category-btn" data-category="poultry">家禽類</button>                 <button class="category-btn" data-category="sushi-ingredients">壽司料</button>                 <button class="category-btn" data-category="fish">魚類</button>                 <button class="category-btn" data-category="squid-octopus-crab-fishpaste">魷魚、八爪魚、蟹類、魚漿製品</button>                 <button class="category-btn" data-category="shellfish-prawns-grilled">貝類、蝦類、燒物類</button>                 <button class="category-btn" data-category="delicacies-rice">珍味小食、米類</button>                 <button class="category-btn" data-category="noodles-vegetables">麵類、蔬菜類</button>                 <button class="category-btn" data-category="miso-pickles">味噌、漬物類</button>                 <button class="category-btn" data-category="desserts-drinks">甜品、飲品類</button>                 <button class="category-btn" data-category="seaweed-kelp-algae">海苔、昆布、海草類</button>                 <button class="category-btn" data-category="wasabi-seasonings">山葵、藥味類</button>                 <button class="category-btn" data-category="sauces-consumables">調味醬汁、消耗品</button>             </div>              <div id="product-list" class="product-list">                 <!-- 產品將由 JavaScript 動態加載到這裡 -->             </div>         </section>     </main>      <footer>         <div class="container">             <div class="footer-info">                 <p>&copy; 2024 鮮一食品有限公司 Fresh One Food Supplies Limited. All rights reserved.</p>                 <p>地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 <p>電話: (852) 2889 2880 | 傳真: 2889 2180 | 電郵: freshone_food@outlook.com</p>                 <p>落單時間: 每天接受落單至早上9:00，當日送貨；星期日休息</p>                 <p class="validity">有效期: MAY'26</p>             </div>             <div class="social-links">                 <a href="https://wa.me/85260719598?text=你好，我想查詢產品和下訂單：" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </div>     </footer>      <script src="products_data.js"></script> <!-- 產品數據文件 -->     <script src="script.js"></script> </body> </html> 
+
+---
+
+5. order.html (訂購頁面)
+
+html <!DOCTYPE html> <html lang="zh-Hant"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>訂購 - 鮮一食品有限公司 Fresh One Food Supplies Limited</title>     <link rel="stylesheet" href="style.css">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head> <body>     <header>         <div class="container">             <div class="logo">                 <h1>鮮一食品有限公司</h1>                 <h2>Fresh One Food Supplies Limited</h2>             </div>             <nav>                 <ul>                     <li><a href="index.html">首頁</a></li>                     <li><a href="about.html">關於我們</a></li>                     <li><a href="products.html">產品目錄</a></li>                     <li><a href="order.html">訂購</a></li>                     <li><a href="contact.html">聯絡我們</a></li>                 </ul>             </nav>         </div>     </header>      <main>         <section id="order-section" class="order-section container">             <h2>線上訂購</h2>             <p class="order-info">請填寫以下表格提交您的訂單，我們會盡快與您聯絡確認。</p>              <form id="orderForm" action="https://formspree.io/f/your_form_id" method="POST">                 <!-- 請將 action 屬性中的 "your_form_id" 替換為你的 Formspree 表單 ID -->                 <h3>您的訂單內容</h3>                 <div id="order-items">                     <!-- 訂購產品將由 JavaScript 動態加載到這裡 -->                     <div class="order-item-row">                         <select name="product_name[]" class="product-select">                             <option value="">-- 選擇產品 --</option>                             <!-- Options will be loaded by JS -->                         </select>                         <input type="number" name="quantity[]" placeholder="數量" min="1" value="1">                         <button type="button" class="remove-item-btn"><i class="fas fa-times"></i></button>                     </div>                 </div>                 <button type="button" id="add-item-btn" class="btn btn-secondary">添加更多產品</button>                  <h3>您的聯絡資料</h3>                 <div class="form-group">                     <label for="customer_name">姓名:</label>                     <input type="text" id="customer_name" name="customer_name" required>                 </div>                 <div class="form-group">                     <label for="customer_phone">電話:</label>                     <input type="tel" id="customer_phone" name="customer_phone" required>                 </div>                 <div class="form-group">                     <label for="customer_email">電郵 (可選):</label>                     <input type="email" id="customer_email" name="customer_email">                 </div>                 <div class="form-group">                     <label for="delivery_address">送貨地址:</label>                     <textarea id="delivery_address" name="delivery_address" rows="3" required></textarea>                 </div>                 <div class="form-group">                     <label for="delivery_date">送貨日期:</label>                     <input type="date" id="delivery_date" name="delivery_date" required>                 </div>                 <div class="form-group">                     <label for="delivery_time">送貨時間 (可選):</label>                     <input type="text" id="delivery_time" name="delivery_time" placeholder="例如: 早上 10-12 點">                 </div>                 <div class="form-group">                     <label for="order_remarks">備註 (可選):</label>                     <textarea id="order_remarks" name="order_remarks" rows="3"></textarea>                 </div>                  <button type="submit" class="btn">提交訂單</button>                 <p id="orderFormStatus"></p>             </form>              <div class="whatsapp-order-option">                 <h3>或透過 WhatsApp 快速落單</h3>                 <p>點擊下方按鈕，直接透過 WhatsApp 發送訂單給我們。</p>                 <a href="https://wa.me/85260719598?text=你好，我想訂購以下產品：%0A%0A---請填寫訂購內容---%0A例如：%0A熟半熟蝦子 (21-25) x 數量%0A泰國草蝦 (21-25) x 數量%0A%0A其他備註：%0A姓名：%0A電話：%0A送貨地址：%0A送貨日期：%0A送貨時間：" target="_blank" class="btn whatsapp-btn-large"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </section>     </main>      <footer>         <div class="container">             <div class="footer-info">                 <p>&copy; 2024 鮮一食品有限公司 Fresh One Food Supplies Limited. All rights reserved.</p>                 <p>地址: 香港柴灣嘉業街18號 明報工業中心 B 座 507 室</p>                 <p>電話: (852) 2889 2880 | 傳真: 2889 2180 | 電郵: freshone_food@outlook.com</p>                 <p>落單時間: 每天接受落單至早上9:00，當日送貨；星期日休息</p>                 <p class="validity">有效期: MAY'26</p>             </div>             <div class="social-links">                 <a href="https://wa.me/85260719598?text=你好，我想查詢產品和下訂單：" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp 落單</a>             </div>         </div>     </footer>      <script src="products_data.js"></script>     <script src="script.js"></script> </body> </html> 
+
+---
+
+6. style.css (網站樣式)
+
+```css
+/* General Body Styles /
+body {
+    font-family: 'Arial', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/ Header /
+header {
+    background: #2c3e50; / Dark blue-grey /
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; / Allow wrapping on smaller screens /
+}
+
+header .logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2em;
+    color: #e8491d; / Orange accent /
+}
+
+header .logo h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    color: #bbb;
+    font-weight: normal;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; / Allow wrapping /
+}
+
+header nav li {
+    padding: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #e8491d;
+}
+
+/ Hero Section /
+.hero-section {
+    min-height: 400px;
+    background: url('https://via.placeholder.com/1920x600?text=Fresh+Food+Supplies (https://via.placeholder.com/1920x600?text=Fresh+Food+Supplies)') no-repeat center center/cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    padding: 40px 20px;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); / Dark overlay /
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #e8491d;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/ Buttons /
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #e8491d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+.btn-secondary {
+    background: #34495e;
+}
+
+.btn-secondary:hover {
+    background: #2c3e50;
+}
+
+.btn-small {
+    padding: 8px 15px;
+    font-size: 0.9em;
+}
+
+.btn-large {
+    padding: 12px 25px;
+    font-size: 1.1em;
+}
+
+/ Sections /
+section {
+    padding: 40px 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #2c3e50;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/ Features Section /
+.features-section {
+    background-color: #f9f9f9;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.feature-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.feature-item i {
+    font-size: 3em;
+    color: #e8491d;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/ Products Preview Section /
+.products-preview-section {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.products-preview-section p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.product-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card h3 {
+    color: #2c3e50;
+    padding: 15px 10px 5px;
+    margin: 0;
+}
+
+.product-card p {
+    font-size: 0.95em;
+    color: #666;
+    padding: 0 10px 15px;
+    margin: 0;
+}
+
+/ About Us Section /
+.about-us-section .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.about-us-section .about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-shrink: 0; / Prevent image from shrinking /
+    object-fit: cover;
+}
+
+.about-us-section .about-text {
+    flex-grow: 1;
+    min-width: 300px; / Ensure text takes enough space /
+}
+
+.about-us-section .about-text h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.about-us-section .about-text p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.about-us-section .about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us-section .about-text ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.about-us-section .about-text ul li strong {
+    color: #e8491d;
+}
+
+.about-us-section .about-text ul li::before {
+    content: '\f00c'; / Checkmark icon /
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #e8491d;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/ Contact Us Section /
+.contact-us-section {
+    text-align: center;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.contact-item i {
+    font-size: 2.5em;
+    color: #e8491d;
+    margin-bottom: 15px;
+}
+
+.contact-item h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 5px 0;
+}
+
+.contact-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.contact-form-container h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="tel"], .form-group input[type="date"], .form-group textarea, .form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; / Include padding in width /
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+#formStatus, #orderFormStatus {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#formStatus.success, #orderFormStatus.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+#formStatus.error, #orderFormStatus.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+/ Product Catalogue Section /
+.catalogue-info {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.product-categories {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-btn {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    font-size: 0.95em;
+    white-space: nowrap; / Prevent text wrapping /
+}
+
+.category-btn:hover {
+    background-color: #ddd;
+}
+
+.category-btn.active {
+    background-color: #e8491d;
+    color: #fff;
+    border-color: #e8491d;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; / Push footer to bottom /
+}
+
+.product-item h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.product-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-item .product-code, .product-item .product-origin {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.product-item .product-spec {
+    font-weight: bold;
+}
+
+.product-item .product-price {
+    font-size: 1.3em;
+    color: #e8491d;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-item .product-status {
+    font-size: 0.9em;
+    color: #c0392b;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/ Order Page /
+.order-section {
+    text-align: center;
+}
+
+.order-info {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+#orderForm {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#orderForm h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.order-item-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+    flex-wrap: wrap; / Allow wrapping on smaller screens /
+}
+
+.order-item-row select, .order-item-row input[type="number"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    min-width: 150px; / Ensure select/input has minimum width /
+}
+
+.order-item-row .product-select {
+    flex-basis: 60%; / Take more space for product name /
+}
+
+.order-item-row .remove-item-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    flex-shrink: 0; / Prevent button from shrinking /
+}
+
+.order-item-row .remove-item-btn:hover {
+    background-color: #c0392b;
+}
+
+#add-item-btn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.whatsapp-order-option {
+    text-align: center;
+    padding: 30px;
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.whatsapp-order-option h3 {
+    color: #00796b;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.whatsapp-order-option p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.whatsapp-btn-large {
+    background-color: #25d366; / WhatsApp green /
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 50px; / Pill shape /
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn-large:hover {
+    background-color: #1da851;
+}
+
+/ Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .footer-info p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+footer .validity {
+    color: #e8491d;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.whatsapp-btn {
+    background
