@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客戶資料頁面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>客戶資料</h1>
+    </header>
+
+    <div class="content">
+        <h2>歡迎來到新客戶資料頁面</h2>
+        <p>目前查看的客戶 ID：<span class="highlight" id="client-id">未知</span></p>
+        
+        <p>
+          此頁面展示了客戶的基本資訊，請根據網址參數動態更新內容。
+        </p>
+    </div>
+
+    <script>
+        // 解析網址參數
+        const params = new URLSearchParams(window.location.search);
+        const clientId = params.get('id'); // 獲取 ID 值
+
+        // 動態顯示客戶 ID
+        if (clientId) {
+            document.getElementById('client-id').textContent = clientId;
+        }
+    </script>
+</body>
+</html>
